@@ -1,0 +1,45 @@
+.weathercont{
+    /* border: 1px solid; */
+    border-radius: 10px;
+    /* margin-top: 5%; */
+    background-color: #8EFBF7;
+    /* width: 60%; */
+}
+.stylediv{
+    display: flex;
+}
+/* body{
+    background-color: #8EFBF7;
+} */
+.dispimg{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.imagetwo, .imageone{
+    border-radius: 20px;
+    background-color: white;
+}
+.imagetwo{
+    width: 50%;
+}
+.darkDiv{
+    margin-top: 40px;
+}
+.backimage{
+   background-image: url('../assets/back.avif');
+   background-size: cover;
+   background-position: center;
+   height: 500px !important;
+}
+/* .stylewidth{
+    width: 500px !important;
+} */
+.stylecard{
+   overflow-x: scroll;
+   gap: 20px;
+}
+.card-body{
+    /* border: 2px solid; */
+    align-items: end;
+}

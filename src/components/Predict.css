@@ -1,0 +1,42 @@
+.predtop {
+    margin-top: 15%;
+}
+
+.dispoutani {
+    /* border: 1px solid; */
+    background-color: aliceblue;
+    display: flex;
+    margin: auto;
+    width: 0%;
+    padding: 10px;
+    margin-top: -50%;
+    border-radius: 10px;
+    justify-content: space-around;
+    animation-name: ani;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+/* body{
+    background-color: aliceblue;
+} */
+@keyframes ani {
+    100% {
+        width: 42%;
+        margin-top: 0%;
+    }
+}
+
+@media (max-width:688px) {
+    .dispoutani {
+        border: 1px solid;
+
+    }
+    @keyframes ani {
+        100% {
+            width: 95%;
+            margin-top: 0%;
+        }
+    }
+}
