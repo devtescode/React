@@ -1,4 +1,13 @@
 .divcont{
     margin: auto;
+    /* margin-top: 15%; */
+}
+.divcont{
     margin-top: 15%;
+}
+
+@media (max-width:688px) {
+    .divcont{
+        margin-top: 45%;
+    }
 }

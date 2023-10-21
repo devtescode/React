@@ -15,7 +15,7 @@ const Jokes = () => {
         <>
         <div className='container'>
             <div className='row'>
-            <div className='col-md-6 col-sm-12 mt-5 mx-auto shadow border rounded-4 text-center p-5'> 
+            <div className='col-md-6 col-sm-12 mt-5 mx-auto shadow border rounded-4 text-center p-5 cononediv'> 
                 <h3>Jokes</h3>
                 {/* <p>{data.length}</p> */}
                 <div className='mt-4'>
